@@ -2,14 +2,13 @@
 __2017-1 객체지향프로그래밍 팀 프로젝트__ <br/><br/>
 
 ## 🎦 게임 시현 캡처본 및 영상 링크
-[![Video Label](https://img.youtube.com/vi/rmx_JicKd-0/0.jpg)](https://www.youtube.com/watch?v=rmx_JicKd-0=0s)https://youtu.be/rmx_JicKd-0
 * [시현 영상 링크](https://www.youtube.com/watch?v=rmx_JicKd-0)
 
 
 <p>
-<img width="300" src="https://user-images.githubusercontent.com/37169252/93739653-c35e1800-fc23-11ea-8cc6-7e886fc088d0.png">
-<img width="300" src="https://user-images.githubusercontent.com/37169252/93739652-c1945480-fc23-11ea-9b11-65dd6aeb6d17.png">
-<img width="300" src="https://user-images.githubusercontent.com/37169252/93739650-bfca9100-fc23-11ea-90a4-a1ee3251c129.png">
+<img width="260" src="https://user-images.githubusercontent.com/37169252/93739653-c35e1800-fc23-11ea-8cc6-7e886fc088d0.png">
+<img width="260" src="https://user-images.githubusercontent.com/37169252/93739652-c1945480-fc23-11ea-9b11-65dd6aeb6d17.png">
+<img width="260" src="https://user-images.githubusercontent.com/37169252/93739650-bfca9100-fc23-11ea-90a4-a1ee3251c129.png">
   
   * 키보드 ⬅️를 누른 후, 16 생성<br/>
 * 키보드 ➡️를 누를 후, 32 생성
