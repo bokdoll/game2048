@@ -2,7 +2,7 @@
 __2017-1 객체지향프로그래밍 팀 프로젝트__ <br/><br/>
 
 ## 🎦 게임 시현 캡처본 및 영상 링크
-[![Video Label](https://img.youtube.com/vi/rmx_JicKd-0/0.jpg)](https://www.youtube.com/watch?v=rmx_JicKd-0=0s) https://youtu.be/b28ZthpLz-0
+[![Video Label](https://img.youtube.com/vi/rmx_JicKd-0/0.jpg)](https://www.youtube.com/watch?v=rmx_JicKd-0=0s)https://youtu.be/rmx_JicKd-0
 * [시현 영상 링크](https://www.youtube.com/watch?v=rmx_JicKd-0)
 
 
