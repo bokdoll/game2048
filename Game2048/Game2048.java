@@ -254,15 +254,17 @@ public class Game2048 extends JPanel {
 	
 	private void drawTile(Graphics g2, Tile tile, int x, int y) {
 		Toolkit tk = Toolkit.getDefaultToolkit();
-		imgfor2 = tk.getImage("2.gif");
+		imgfor2 = tk.getImage("2.png");
 		imgfor4 = tk.getImage("4.png");
-		imgfor8 = tk.getImage("8.gif");
-		imgfor16 = tk.getImage("16.jpg");
-		imgfor32 = tk.getImage("32.gif");
-		imgfor64 = tk.getImage("1.png");
-		imgfor128 = tk.getImage("128.gif");
-		imgfor256 = tk.getImage("256.gif");
-		imgfor512 = tk.getImage("512.gif");
+		imgfor8 = tk.getImage("8.png");
+		imgfor16 = tk.getImage("16.png");
+		imgfor32 = tk.getImage("32.png");
+		imgfor64 = tk.getImage("64.png");
+		imgfor128 = tk.getImage("128.png");
+		imgfor256 = tk.getImage("256.png");
+		imgfor512 = tk.getImage("512.png");
+		imgfor1024 = tk.getImage("1024.png");
+		imgfor2048 = tk.getImage("2048.png");
 		Graphics2D g = ((Graphics2D) g2);
 		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		g.setRenderingHint(RenderingHints.KEY_STROKE_CONTROL, RenderingHints.VALUE_STROKE_NORMALIZE);
@@ -285,17 +287,17 @@ public class Game2048 extends JPanel {
 		final int h = -(int) fm.getLineMetrics(s, g).getBaselineOffsets()[2];
 		
 		switch (s1) {
-			case (2):     g.drawImage(imgfor2, xOffset + (TILE_SIZE - w) / 2 -20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);  break;
-			case (4):    g.drawImage(imgfor4, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (8):    g.drawImage(imgfor8, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (16):    g.drawImage(imgfor16, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (32):   g.drawImage(imgfor32, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (64):  g.drawImage(imgfor2, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (128):    g.drawImage(imgfor128, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (256):  g.drawImage(imgfor256, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (512):  g.drawImage(imgfor512, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
-			case (1024):  g.drawImage(imgfor2, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2-50,TILE_SIZE,TILE_SIZE,this);break;
-			case (2048):  g.drawImage(imgfor2, xOffset + (TILE_SIZE - w) / 2-20, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -50,TILE_SIZE,TILE_SIZE,this);break;
+			case (2):     g.drawImage(imgfor2, xOffset + (TILE_SIZE - w) / 2-22, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -48,TILE_SIZE,TILE_SIZE,this);  break;
+			case (4):    g.drawImage(imgfor4, xOffset + (TILE_SIZE - w) / 2-22, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -48,TILE_SIZE,TILE_SIZE,this);break;
+			case (8):    g.drawImage(imgfor8, xOffset + (TILE_SIZE - w) / 2-22, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -48,TILE_SIZE,TILE_SIZE,this);break;
+			case (16):    g.drawImage(imgfor16, xOffset + (TILE_SIZE - w) / 2-12, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -48,TILE_SIZE,TILE_SIZE,this);break;
+			case (32):   g.drawImage(imgfor32, xOffset + (TILE_SIZE - w) / 2-12, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -48,TILE_SIZE,TILE_SIZE,this);break;
+			case (64):  g.drawImage(imgfor64, xOffset + (TILE_SIZE - w) / 2-12, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -48,TILE_SIZE,TILE_SIZE,this);break;
+			case (128):    g.drawImage(imgfor128, xOffset + (TILE_SIZE - w) / 2-5, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -46,TILE_SIZE,TILE_SIZE,this);break;
+			case (256):  g.drawImage(imgfor256, xOffset + (TILE_SIZE - w) / 2-5, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -46,TILE_SIZE,TILE_SIZE,this);break;
+			case (512):  g.drawImage(imgfor512, xOffset + (TILE_SIZE - w) / 2-5, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -46,TILE_SIZE,TILE_SIZE,this);break;
+			case (1024):  g.drawImage(imgfor1024, xOffset + (TILE_SIZE - w) / 2-5, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2-46,TILE_SIZE,TILE_SIZE,this);break;
+			case (2048):  g.drawImage(imgfor2048, xOffset + (TILE_SIZE - w) / 2-5, yOffset + TILE_SIZE - (TILE_SIZE - h) / 2 -46,TILE_SIZE,TILE_SIZE,this);break;
 		}
 		
 		if (myWin || myLose) {
@@ -366,9 +368,9 @@ public class Game2048 extends JPanel {
 	}
 	
 	public static void CountDown(JFrame jf) {
-		label = new JLabel("½ÃÀÛ");
+		label = new JLabel("ï¿½ï¿½ï¿½ï¿½");
 		label.setFont(new Font("", Font.BOLD, 15));
-		(new MyThread()).start(); //½º·¹µå ½ÇÇà
+		(new MyThread()).start(); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	}
 }    
 
@@ -377,7 +379,7 @@ class MyThread extends Thread {
 	public void run() {
 		for (int i = 1; ; i++) {
 			try {
-				Thread.sleep(1000);// ½º·¹µå¸¦ °­Á¦·Î 1ÃÊ°£ ½½¸³...
+				Thread.sleep(1000);// ï¿½ï¿½ï¿½ï¿½ï¿½å¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½Ê°ï¿½ ï¿½ï¿½ï¿½ï¿½...
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
